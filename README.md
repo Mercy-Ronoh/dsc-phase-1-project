@@ -1,10 +1,4 @@
-![felix-mooneeram-evlkOfkQ5rE-unsplash.jpg](attachment:felix-mooneeram-evlkOfkQ5rE-unsplash.jpg)
-![My Image](budget.png)
-
-
-
-
-
+![Movie]([https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png)
 # Movie Industry Analysis at Microsoft 
 
 ## Name: Mercy Ronoh
@@ -43,19 +37,18 @@ These datasets collectively informed my analysis of the film industry's key succ
 
 The methodoly followed started by importing data from the zipped Data folder, followed by removing irrelevant columns and handling missing values using statistical techniques.It comprised of data cleaning, descriptive statistics, and data visualization to identify key factors for success in the movie industry. Descriptive statistics and visualizations were then employed to reveal industry trends and highlight attributes common to high-grossing films. This comprehensive approach enabled the extraction of valuable insights and informed data-driven recommendations for success in the movie industry.
 ### Results
- 
-http://localhost:8888/view/images/v1.png 
+https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/v1.png
  
 The top genres with the highest counts that are was the most common in this dataset:Adventure, animation, comedy.
 
-http://localhost:8888/view/images/budget.png
+https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png
  
 Shows the positive correlation between production budget and box office returns, indicating that higher budgets tend to result in higher world gross revenue for movies.
+https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month1.png
+https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month2.png
 
-http://localhost:8888/view/images/release_month1.png
-http://localhost:8888/view/images/release_month2.png
 To maximize box office revenue, movie titles should be released during the first peak season between April and July, as well as the second peak season in November and December.
-http://localhost:8888/view/images/studios_data.png
+https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/studios_data.png
  
 ## Conclusions
 
@@ -75,7 +68,7 @@ Furthermore, our analysis of release months suggests that for a movie title to a
 In light of these findings, Microsoft should consider breaking into the movie industry with strategic insights. Additionally, it's worth noting that top-performing studios like BV (Buena Vista), Universal, Fox, Warner Brothers, and Sony have shown remarkable success in generating substantial total gross revenue, with BV leading at approximately $79,317 million. Microsoft could explore benchmarking against these industry leaders and consider personnel hiring from these studios to leverage their expertise and further enhance its prospects in the movie industry."
 
 ## For More Information
-Please review my full analysis in my Jupyter Notebook or my presentation.
+Please review my full analysis in my jupyter notebook or my presentation.
 
 For any additional questions, please contact Mercy Ronoh at ronohmercy23@gmail.com
 
