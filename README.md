@@ -1,3 +1,5 @@
+![Intro](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg)
+
 
 # Movie Industry Analysis at Microsoft 
 
@@ -37,18 +39,17 @@ These datasets collectively informed my analysis of the film industry's key succ
 
 The methodology followed started by importing data from the zipped Data folder, followed by removing irrelevant columns and handling missing values using statistical techniques.It comprised of data cleaning, descriptive statistics, and data visualization to identify key factors for success in the movie industry. Descriptive statistics and visualizations were then employed to reveal industry trends and highlight attributes common to high-grossing films. This comprehensive approach enabled the extraction of valuable insights and informed data-driven recommendations for success in the movie industry.
 ### Results
-https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/v1.png
- 
+![Top Genres](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/v1.png)
 The top genres with the highest counts that are was the most common in this dataset:Adventure, animation, comedy.
 
 ![Budget vs. Box Office Returns](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png)
  
 Shows the positive correlation between production budget and box office returns, indicating that higher budgets tend to result in higher world gross revenue for movies.
-https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month1.png
-https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month2.png
+![Release Season 1](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month1.png)
+![Release Season 2](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month2.png)
 
 To maximize box office revenue, movie titles should be released during the first peak season between April and July, as well as the second peak season in November and December.
-https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/studios_data.png
+![Top Studios Data](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/studios_data.png)
  
 ## Conclusions
 
