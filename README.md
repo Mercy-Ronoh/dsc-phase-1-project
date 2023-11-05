@@ -1,4 +1,4 @@
-![Movie]([https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png)
+
 # Movie Industry Analysis at Microsoft 
 
 ## Name: Mercy Ronoh
@@ -35,7 +35,7 @@ These datasets collectively informed my analysis of the film industry's key succ
 
 ## Methods
 
-The methodoly followed started by importing data from the zipped Data folder, followed by removing irrelevant columns and handling missing values using statistical techniques.It comprised of data cleaning, descriptive statistics, and data visualization to identify key factors for success in the movie industry. Descriptive statistics and visualizations were then employed to reveal industry trends and highlight attributes common to high-grossing films. This comprehensive approach enabled the extraction of valuable insights and informed data-driven recommendations for success in the movie industry.
+The methodology followed started by importing data from the zipped Data folder, followed by removing irrelevant columns and handling missing values using statistical techniques.It comprised of data cleaning, descriptive statistics, and data visualization to identify key factors for success in the movie industry. Descriptive statistics and visualizations were then employed to reveal industry trends and highlight attributes common to high-grossing films. This comprehensive approach enabled the extraction of valuable insights and informed data-driven recommendations for success in the movie industry.
 ### Results
 https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/v1.png
  
