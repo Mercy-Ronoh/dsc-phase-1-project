@@ -1,65 +1,79 @@
-# Phase 1 Project
+![felix-mooneeram-evlkOfkQ5rE-unsplash.jpg](attachment:felix-mooneeram-evlkOfkQ5rE-unsplash.jpg)
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+# Movie Industry Analysis at Microsoft 
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Name: Mercy Ronoh
 
-## Project Overview
+## Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+This project analyzes the movie industry data to provide insights to the Microsoft team which wants to venture into movie production. The objective is to explore the data through analysis, manipulation and exploration to come up with findings that can provide recommendations on where and how to kickstart the process. Microsoft can use this analysis to make decisions in regards to which type of genres to venture into, the budget they can pump into the project and the predictive timelines when they can release the movies/films into the target market. This will in turn led to high gross returns, therefore high profit margins.
 
-### Business Problem
+## Problem Statement
+Microsoft is venturing into the lucrative movie-making industry, but they lack a clear starrting point. Their new movie studio is eager to dive in. Unfortunately, Microsoft has no prior knowledge of the movie industry and might have challenges moving forward blindly in creating content.
+Through analysis of the recent data and practicies that are foundational for a profitable venture, I have recommended essential features that Microsoft's movie studio can incorporate for maximum revenue generation.
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+The main factors  I have focused on are:
+
+1. The genre type that are most successful.
+2. The budget that can result to better gross returns.
+3. The seasons when release can generate high gross returns.
+
+Using the data, have described patterns, made predictions and decisions to creating a lucratibe movie industry.This analysis equips Microsoft with the knowledge needed to make well-informed strides into the film industry. 
 
 ### The Data
+I sourced data from four primary datasets to comprehensively analyze the film industry:
 
-In the folder `zippedData` are movie datasets from:
+1. IMDB Data: movies produced, including details on production budgets, revenues, genres, and ratings.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+2. Box Office Mojo Data: encompassing domestic, international, and worldwide box office earnings, genres, and more.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+3. Rotten Tomatoes Data: Access to audience and critic ratings, reviews, and related insights.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+4. The Numbers Data: Data from a reputable movie industry data provider, offering information on box office revenues, budgets, genres, and more for the top 100 movies per year.
 
-## Deliverables
+These datasets collectively informed my analysis of the film industry's key success factors and guided recommendations for Microsoft's entry into movie production.
 
-There are three deliverables for this project:
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+## Methods
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+The methodoly followed started by importing data from the zipped Data folder, followed by removing irrelevant columns and handling missing values using statistical techniques.It comprised of data cleaning, descriptive statistics, and data visualization to identify key factors for success in the movie industry. Descriptive statistics and visualizations were then employed to reveal industry trends and highlight attributes common to high-grossing films. This comprehensive approach enabled the extraction of valuable insights and informed data-driven recommendations for success in the movie industry.
+### Results
+ 
+http://localhost:8888/view/images/v1.png 
+ 
+The top genres with the highest counts that are was the most common in this dataset:Adventure, animation, comedy.
 
-### Key Points
+http://localhost:8888/view/images/budget.png
+ 
+Shows the positive correlation between production budget and box office returns, indicating that higher budgets tend to result in higher world gross revenue for movies.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+http://localhost:8888/view/images/release_month1.png
+http://localhost:8888/view/images/release_month2.png
+To maximize box office revenue, movie titles should be released during the first peak season between April and July, as well as the second peak season in November and December.
+http://localhost:8888/view/images/studios_data.png
+ 
+## Conclusions
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+Conclusion
+In conclusion, the focus should be on producing the top five genres with the highest counts, which are the most common in this dataset:
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+Adventure, Animation, Comedy Action, Adventure, and Sci-Fi Comedy Comedy, Drama Comedy, Drama, Romance
 
-## Getting Started
+Based on the statistics, the mean budget for producing titles in the Adventure,Animation,Comedy' genre is approximately 75.69 million, while for Action,Adventure,Sci-Fi as it it is about 90.82 million.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+Optimal budgets for achieving successful outcomes vary, with an optimal budget of around 125 million for Adventure,Animation,Comedy and 410 million for Action,Adventure,Sci-Fi.
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+Analyzing the plot, the regression line illustrates a general increase in gross amounts as the production budget increases. This indicates that a higher production budget tends to result in higher box office returns, interpreted as world gross revenue.
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+Furthermore, our analysis of release months suggests that for a movie title to achieve high gross amounts, it should be released between April and July, which marks the first peak season, with a second peak occurring between November and December.
 
-## Project Submission and Review
+In light of these findings, Microsoft should consider breaking into the movie industry with strategic insights. Additionally, it's worth noting that top-performing studios like BV (Buena Vista), Universal, Fox, Warner Brothers, and Sony have shown remarkable success in generating substantial total gross revenue, with BV leading at approximately $79,317 million. Microsoft could explore benchmarking against these industry leaders and consider personnel hiring from these studios to leverage their expertise and further enhance its prospects in the movie industry."
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+## For More Information
+Please review my full analysis in my Jupyter Notebook or my presentation.
 
-## Summary
+For any additional questions, please contact Mercy Ronoh at ronohmercy23@gmail.com
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+## Repository Structure
+http://localhost:8888/tree
