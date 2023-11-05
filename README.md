@@ -41,7 +41,7 @@ https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/v1.png
  
 The top genres with the highest counts that are was the most common in this dataset:Adventure, animation, comedy.
 
-https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png
+![Budget vs. Box Office Returns](https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/budget.png)
  
 Shows the positive correlation between production budget and box office returns, indicating that higher budgets tend to result in higher world gross revenue for movies.
 https://github.com/Mercy-Ronoh/dsc-phase-1-project/blob/master/images/release_month1.png
