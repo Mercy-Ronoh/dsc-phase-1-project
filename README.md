@@ -1,4 +1,8 @@
 ![felix-mooneeram-evlkOfkQ5rE-unsplash.jpg](attachment:felix-mooneeram-evlkOfkQ5rE-unsplash.jpg)
+![My Image](budget.png)
+
+
+
 
 
 # Movie Industry Analysis at Microsoft 
@@ -76,4 +80,4 @@ Please review my full analysis in my Jupyter Notebook or my presentation.
 For any additional questions, please contact Mercy Ronoh at ronohmercy23@gmail.com
 
 ## Repository Structure
-http://localhost:8888/tree
+(https://github.com/Mercy-Ronoh/dsc-phase-1-project)https://github.com/Mercy-Ronoh/dsc-phase-1-project
